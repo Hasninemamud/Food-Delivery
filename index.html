@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+
+  <!-- Navbar -->
+  <div class="w-full h-12 flex justify-between items-center text-[8rem] px-24 py-10 bg-white shadow">
+    <div class="text-pink-600 text-3xl font-bold">FoodDelivery</div>
+    <div class="text-black/90 text-lg font-semibold">Sign In</div>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="relative w-full h-[504px]">
+    <img class="h-[504px] w-full object-cover" src="images/1stimg.jpg" alt="Hero Image">
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+        <h1 class="text-5xl font-normal">Your favorite food, delivered to you</h1>
+        <div class="mt-4 ml-4 w-full max-w-4xl flex items-center bg-white rounded-full shadow-lg">
+            <input type="text" placeholder="New York" class="w-full rounded-l-full ml-10  text-lg font-semibold text-black/90 focus:outline-none">
+            <div class="border-l border-neutral-300 h-10"></div>
+            <button class="bg-pink-600 text-white text-lg font-semibold px-8 py-3 rounded-r-full">Search</button>
+        </div>
+    </div>
+</div>
+  <!-- About Section -->
+  <div class="w-10/12 mx-auto my-16 flex items-center">
+    <div class="w-1/2">
+      <img src="images/13Images.png" alt="App Screenshot" class="w-full h-auto">
+    </div>
+    <div class="w-1/2 pl-16">
+      <h2 class="text-5xl text-black/90">Take a taste, come join us. Life is so endlessly delicious</h2>
+      <p class="mt-4 text-lg text-black/90">In the artist's own experience, of course, art is fundamentally indefinable, unsayable; there is something sacred about its demands upon the soul, something inherently mysterious in the forms it takes.</p>
+      <button class="mt-8 bg-pink-600 text-white text-lg font-semibold px-8 py-3 rounded-full">Download our App</button>
+    </div>
+  </div>
+
+  <div class="container mx-auto p-6">
+    <div class="flex justify-between items-center mb-4">
+        <h2 class="text-2xl font-semibold">Popular on New York area</h2>
+        <a href="#" class="text-blue-500 hover:underline">View All</a>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="relative bg-white rounded-lg shadow-md">
+            <img class="w-full h-[80%] object-cover rounded-lg" src="images/2nd img.jpg" alt="Hotel">
+            <div class="p-4">
+                <h3 class="text-lg font-semibold">Restaurant Name</h3>
+                <p class="text-gray-600">$9.99 Delivery Fee · 10-15 mins</p>
+            </div>
+        </div>
+        <div class="grid grid-rows-2 gap-6">
+            <div class="relative bg-white rounded-lg shadow-md">
+                <img class="w-full h-48 object-cover rounded-lg" src="images/1Photo.png" alt="Restaurant">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Restaurant Name</h3>
+                    <p class="text-gray-600">$9.99 Delivery Fee · 10-15 mins</p>
+                </div>
+            </div>
+            <div class="relative bg-white rounded-lg shadow-md">
+                <img class="w-full h-48 object-cover rounded-lg" src="images/3Photo.png" alt="Restaurant">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Restaurant Name</h3>
+                    <p class="text-gray-600">$9.99 Delivery Fee · 10-15 mins</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid grid-rows-2 gap-6">
+            <div class="relative bg-white rounded-lg shadow-md">
+                <img class="w-full h-48 object-cover rounded-lg" src="images/2Photo.png" alt="Restaurant">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Restaurant Name</h3>
+                    <p class="text-gray-600">$9.99 Delivery Fee · 10-15 mins</p>
+                </div>
+            </div>
+            <div class="relative bg-white rounded-lg shadow-md">
+                <img class="w-full h-48 object-cover rounded-lg" src="images/4Photo.png" alt="Restaurant">
+                <div class="p-4">
+                    <h3 class="text-lg font-semibold">Restaurant Name</h3>
+                    <p class="text-gray-600">$9.99 Delivery Fee · 10-15 mins</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- How It Works Section -->
+  <div class="w-10/12 mx-auto my-16 text-center">
+    <h2 class="text-5xl text-black/90">How it works</h2>
+    <div class="mt-8 flex justify-between">
+      <!-- Step 1 -->
+      <div class="relative w-72 bg-white rounded-2xl shadow-lg p-6">
+        <div class="flex justify-center">
+          <img src="images/Icon.png" alt="Step 1" class=" h-16  relative z-10">
+          <img src="images/1Ornament.png" alt="Ornament" class="absolute inset-0 pl-[6rem] mt-[1rem] flex items-center justify-center opacity-50">
+        </div>
+        <h3 class="mt-4 text-lg text-pink-600 font-semibold">Order via App</h3>
+        <p class="mt-2 text-sm text-black/90">In the artist's own experience, of course, art is fundamentally indefinable, unsayable; there is something sacred about its demands.</p>
+      </div>
+      <!-- Step 2 -->
+      <div class="relative w-72 bg-white rounded-2xl shadow-lg p-6">
+        <div class="flex justify-center">
+          <img src="images/Food-2.png" alt="Step 2" class="h-16 relative z-10">
+          <img src="images/2Ornament.png" alt="Ornament" class="absolute inset-0 pl-[6rem] mt-[1rem] flex items-center justify-center opacity-50">
+        </div>
+        <h3 class="mt-4 text-lg text-pink-600 font-semibold">Choose your food</h3>
+        <p class="mt-2 text-sm text-black/90">In the artist's own experience, of course, art is fundamentally indefinable, unsayable; there is something sacred about its demands.</p>
+      </div>
+      <!-- Step 3 -->
+      <div class="relative w-72 bg-white rounded-2xl shadow-lg p-6">
+        <div class="flex justify-center">
+          <img src="images/Chicken.png" alt="Step 3" class="h-16 relative z-10">
+          <img src="images/Ornament.png" alt="Ornament" class="absolute inset-0 pl-[6rem] mt-[1rem] flex items-center justify-center opacity-50">
+        </div>
+        <h3 class="mt-4 text-lg text-pink-600 font-semibold">Enjoy!</h3>
+        <p class="mt-2 text-sm text-black/90">In the artist's own experience, of course, art is fundamentally indefinable, unsayable; there is something sacred about its demands.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- CTA Section -->
+  <div class="w-[1232px] mt-[5rem] mb-[5rem] ml-[4rem] h-[360px] relative">
+    <div class="w-[1232px] h-[360px] left-0 top-0 absolute">
+      <div class="w-[1232px] h-[360px] left-0 top-0 absolute bg-rose-400 rounded-[32px]"></div>
+      <div class="w-[1232px] h-[360px] left-0 top-0 absolute bg-rose-400 rounded-[32px]"></div>
+      <div class="w-[733px] h-[694px] left-[946.53px] top-[19.87px] absolute origin-top-left rotate-[120deg] justify-center items-center inline-flex"></div>
+      <div class="w-[574px] h-[544px] left-[1032.94px] top-[-37.55px] absolute origin-top-left rotate-[120deg] justify-center items-center inline-flex"></div>
+      <div class="w-[618px] h-[585px] left-[243.81px] top-[414.35px] absolute origin-top-left rotate-[-60deg] mix-blend-multiply justify-center items-center inline-flex"></div>
+    </div>
+    <div class="w-[608px] left-[104px] top-[55px] absolute text-white text-5xl font-normal font-['Jost'] leading-[64px] tracking-tight">Food Delivery helps you bring food to your front door</div>
+    <div class="w-[248px] h-14 left-[104px] top-[224px] absolute">
+      <div class="w-[248px] h-14 left-0 top-0 absolute bg-slate-800 rounded-[40px]"></div>
+      <div class="left-[26.70px] top-[16px] absolute text-center text-white text-[21px] font-semibold font-['Jost'] leading-normal tracking-wide">Download our App</div>
+    </div>
+    <div class="w-[184px] h-14 left-[384px] top-[224px] absolute">
+      <div class="w-[184px] h-14 left-0 top-0 absolute rounded-[40px]"></div>
+      <div class="left-[27px] top-[16px] absolute text-center text-white text-[21px] font-semibold font-['Jost'] leading-normal tracking-wide">Browse food</div>
+    </div>
+  </div>
+
+  <div class="text-center">
+    <h2 class="text-3xl mb-8 font-bold">What our food lovers said</h2>
+    <p class="mb-12 text-gray-700 max-w-3xl mx-auto">
+        In the artist's own experience, of course, art is fundamentally indefinable, unsayable; there is something sacred about its demands upon the soul, something inherently mysterious in the forms it takes
+    </p>
+</div>
+  <!-- Testimonials Section -->
+  <div class="relative flex items-center ml-[25rem] mr-[25rem]">
+    <!-- Left Arrow -->
+    <div class="absolute left-[-48px] flex items-center">
+        <button class="arrow-button">&#9664;</button>
+    </div>
+    <!-- Card Container -->
+    <div class="relative w-[608px] h-[343px]  rounded-lg overflow-hidden shadow-lg bg-black">
+        <img src="images/Rectangle.png" alt="Background Image" class="w-full mt-2 h-full object-cover opacity-70">
+        <div class="absolute inset-0 flex flex-col items-center justify-center px-6 text-center text-white">
+            <div class="absolute w-12 h-12 bg-gray-300 rounded-full top-6"></div>
+            <p class="mt-6 ml-[6.4rem] mr-[6rem] text-xl font-semibold">In the artist's own experience, of course, art is fundamentally indefinable, unsayable</p>
+            <p class="mt-4 text-[#F40469]">Tim Oliver, ordered Burger Extracheese</p>
+        </div>
+    </div>
+    <!-- Right Arrow -->
+    <div class="absolute right-[-48px] flex items-center">
+        <button class="arrow-button">&#9654;</button>
+    </div>
+    
+    
+</div>
+<div class="flex items-center justify-center w-full mt-[5rem] mb-[5rem]">
+  <img src="images/Logo Clients.png" alt="Company Logos" class="max-w-full h-auto">
+</div>
+
+<div class="w-10/12  flex justify-center space-x-8">
+  <h3 class="text-[2rem] mr-[15rem] mb-10  text-pink-600 font-bold">FoodDelivery</h3>
+  <a href="#" class="text-black/90 text-lg font-semibold">Partners</a>
+  <a href="#" class="text-black/90 text-lg font-semibold">About Us</a>
+  <a href="#" class="text-black/90 text-lg font-semibold">Privacy Policy</a>
+  <a href="#" class="text-black/90 text-lg font-semibold">Contact Us</a>
+</div>
+
+  <!-- Footer Section -->
+  <footer class="w-full h-auto bg-gray-50 py-12" style="background-image: url('images/Ornament1.png'); background-position: right; background-repeat: no-repeat;">
+    
+    <div class="w-10/12 mx-auto flex justify-between">
+        <div>
+            <p class="mt-4 text-black/90">123 Lorem Ipsum Street<br>Tangerang, Banten<br><br>+10 - 234 - 5678</p>
+        </div>
+        <div>
+            <ul class="mt-4 space-y-2 text-black/90">
+                <li>All Restaurant</li>
+                <li>Best Sellers</li>
+                <li>Top Rated</li>
+                <li>Newcomers</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="mt-4 space-y-2 text-black/90">
+                <li>FAQ</li>
+                <li>Join our program</li>
+                <li>Be our partners</li>
+                <li>Terms & Condition</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="mt-4 space-y-2 text-black/90">
+                <li>Our Parent Company</li>
+                <li>Make an investment</li>
+            </ul>
+        </div>
+    </div>
+    
+</footer>
+
+</body>
+
+</html>
